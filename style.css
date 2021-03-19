@@ -120,17 +120,20 @@ body{
 .simplehex h6{
     padding-left: 20px !important;
     width: 400px;
+    text-align: center;
 }
 
 .algsite h6{
     padding-left: 20px !important;
     width: 400px;
+    text-align: center;
 }
 
 .simplehex img{
     filter: grayscale(1);
     height: 300px;
     width: 400px;
+    border-radius: 10%;
 }
 
 .simplehex img:hover{
@@ -141,8 +144,13 @@ body{
     filter: grayscale(1);
     height: 300px;
     width: 400px;
+    border-radius:  10%;
 }
 
 .algsite img:hover{
     filter: grayscale(0);
+}
+
+.algsite{
+    padding-left: 150px !important;
 }
