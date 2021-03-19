@@ -81,11 +81,16 @@ body{
     text-align: justify;
 }
 
+.col-sm h6{
+    padding-top: 80px;
+    padding-left: 0px;
+}
+
 .cards a {
     color: inherit;
     text-decoration: none;
     color: #FF9933;
-  }
+}
 
 .cards img{
     width: 250px;
