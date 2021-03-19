@@ -1,0 +1,108 @@
+html {
+    min-height: 100%;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-radial-gradient(at bottom right, #222222, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: radial-gradient(at bottom right, #222222, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    font-family: 'Inconsolata', monospace  !important;
+}
+
+.nav-link{
+    color: #FF9933;
+    font-size: 17px;
+    opacity: 0.6;
+}
+
+.navbar-brand{
+    color: #FF9933;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(219, 216, 216)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#img-brand{
+    height: 70px;
+    width: 70px;
+}
+
+.container{
+    color: #DBD8D8;
+    padding: 30px 10px 0px 60px;
+    width: 100%;
+    height: 100%;
+    margin-left: 200px !important;
+}
+
+.inicio{
+    padding-top: 180px;
+    max-width: 80%;
+}
+
+.expl h6{
+    line-height: 2;
+    font-size: 20px;
+    max-width: 70%;
+    text-align: justify;
+}
+
+.pr{
+    color: #FF9933;
+    font-size: 20px;
+}
+
+.titulo-cards{
+    color: #FF9933;
+    font-size: 30px;
+}
+
+#my-name{
+    font-size: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #EEEEEE;
+    font-family: 'Merriweather', serif;
+}
+
+.cards{
+    margin-top: 300px;
+    margin-bottom: 100px;
+    max-width: 60%;
+    border-left: solid #FF9933;
+    text-align: justify;
+}
+
+.cards h6, h4{
+    padding-left: 20px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.cards a {
+    color: inherit;
+    text-decoration: none;
+    color: #FF9933;
+  }
+
+.cards img{
+    width: 250px;
+    height: 230px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+#contato{
+    margin-bottom: 300px;
+}
+
+
+.icon a{
+    padding-right: 20px;
+}
+
+.scroll-change{
+    background-color: #131b2c;
+    height: 60px;
+}
